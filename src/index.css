@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, nav, button {
+  font-family: 'Space Grotesk', sans-serif;
+}
+.light-theme {
+  --page-bg: #fcefdf;
+  --box-bg: #ffbe62;
+  --page-text: #171717;
+  --card-bg: #ffffff;
+  --secondary-text: #555555;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-theme {
+  
+  --page-bg: #121212;
+  --box-bg: #913000;
+  --page-text: #ffffff;
+  --card-bg: #242424;
+  --secondary-text: #cccccc;
+  transition: background-color 0.3s, color 0.3s;
+}

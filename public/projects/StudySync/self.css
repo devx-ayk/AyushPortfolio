@@ -1,0 +1,539 @@
+*{
+    /* margin: 0; 
+    padding: 0; 
+   box-sizing: border-box; */
+}
+.container{
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   flex-direction: row;
+   font-family: 'Courier New', Courier, monospace;
+
+}
+
+.button{
+   padding: 13px;
+   padding-left: 20px;
+   padding-right: 20px;
+   background-color: rgb(18, 18, 185);
+   color: white;
+   border-radius: 10px;
+   border-style: none;
+   cursor: pointer;
+   font-family: "Nunito", sans-serif;
+ 
+}
+.buttons{
+   margin-top: 50px;
+}
+button:hover{
+   background-color: rgb(12, 11, 96);
+   transition: 1.0s;
+}
+
+a{
+   font-family: "Nunito", sans-serif;
+   text-decoration: none;
+   /* color: rgb(56, 55, 55); */
+   color: white;
+   transition:transform 0.3s ease-in-out; 
+}
+a:hover {
+   background-color: rgb(12, 11, 96);
+   /* transform: scale(1.5); */
+   
+}
+
+a:visited{
+   color: white;
+
+}
+/* ------------------------------------------------------------------------------------------ */
+
+/* ------------------------------------------------------------------------------------------ */
+.contain {
+   display: flex;
+   align-items: center; 
+   gap: 10px;
+}
+.contain img{
+   height: 30px;
+   width: 30px;
+   
+}
+.centerpage{
+   display:flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   
+}
+#img{
+   border-radius:20px;
+   height: 450px;
+   margin-left: 115px;
+   margin-top: 30px;
+   margin-right: 88px;
+}
+
+.button2{
+   background-color: rgb(68, 0, 255);
+   padding: 10px;
+   border-radius: 5px;
+   color: white;
+   border-style: none;
+   padding-left: 15px;
+   padding-right: 15px;
+   font-family: "Nunito", sans-serif;
+   margin-top: 30px;
+   margin-left: 20;
+   font-size: 15px;
+   margin-right: 5px;
+}
+
+.button3{
+   background-color: rgb(42, 45, 44);
+   padding: 10px;
+   padding-left: 15px;
+   padding-right: 15px;
+   border-radius: 5px;
+   color: white;
+   border-style: none;
+   font-family: "Nunito", sans-serif;
+   font-size: 15px;
+
+}
+.button3:hover{
+   background-color: black;
+}
+.centerpage.buttons{
+   padding:50px;
+}
+/* very proud to introduce */
+.content h5{
+   color: rgb(68, 0, 255);
+   font-family: "Nunito", sans-serif;
+}
+.content p{
+   margin-right: 10px;
+   font-size: 15px;
+   font-family: "Nunito", sans-serif;
+   color: rgb(117, 120, 119);
+}
+.content h1{
+   /* font-family: "Archivo Black", system-ui; */
+   font-family: "Prompt", sans-serif;
+   color: black;
+   font-size: 48px;
+
+}
+.page{
+   margin-left: 100px;
+}
+.section2{
+   display: flex;
+   justify-content: center;
+   margin-top: 50px;
+   font-family: "Prompt", sans-serif;
+   font-size: 30px;
+}
+.icons{
+  
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   gap: 40px;
+   margin-top: 40px;
+   background-color: bisque;
+   padding: 25px;
+   
+  
+   
+}
+.icons .google img{
+   height: 21px;
+   width: 20px;
+}
+.icons a{
+   
+}
+.icons a{
+  font-weight: bold;
+  color: black;
+  background-color: bisque;
+}
+.icons .microsoft img{
+   height: 21px;
+   width: 20px;
+}
+.icons .linkedin img{
+   height: 21px;
+   width: 20px;
+}
+.icons .vectoredu img{
+   height: 21px;
+   width: 20px;
+  
+}
+.section3{
+  margin-top: 20px;
+  height: 120vh;
+  background-color: rgb(238, 235, 235);
+}
+.section3 h1{
+   display: flex;
+   justify-content: center;
+   font-family: "Nunito", sans-serif;
+   font-weight: bolder;
+   /* margin-top: 50px; */
+}
+.section3 p{
+   display: flex;
+   justify-content: center;
+   font-family: "Nunito", sans-serif;
+   color: rgb(117, 120, 119);
+}
+.grid{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+   color: white;
+   font-family: "Nunito", sans-serif;
+   
+}
+.grid .box{
+   /* background-color: rgb(17, 101, 211); */
+   background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+   width: 300px;
+   height: 180px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   border-radius: 10px;
+   padding: 20px;
+   font-size: small;
+   
+}
+.grid .box2{
+   /* background-color: rgb(200, 10, 73); */
+   background-image: linear-gradient(45deg, #874da2 0%, #c43a30 100%);
+   width: 300px;
+   height: 180px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   border-radius: 10px;
+   padding: 20px;
+   font-size: small;
+}
+.grid .box3{
+   /* background-color: rgb(224, 180, 0); */
+   background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+   width: 300px;
+   height: 180px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   border-radius: 10px;
+   padding: 20px;
+   font-size: small;
+}
+.grid .box4{
+   /* background-color: rgb(10, 171, 200); */
+   background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+   width: 300px;
+   height: 180px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   border-radius: 10px;
+   padding: 20px;
+   font-size: small;
+}
+.grid .box5{
+   /* background-color: rgb(49, 115, 6); */
+   background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+   width: 300px;
+   height: 180px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   border-radius: 10px;
+   padding: 20px;
+   font-size: small;
+}
+.grid .box6{
+   /* background-color: rgb(80, 43, 153); */
+   /* background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%); */
+   background-image: linear-gradient(-225deg, #AC32E4 0%, #7918F2 48%, #4801FF 100%);
+   width: 300px;
+   height: 180px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   border-radius: 10px;
+   padding: 20px;
+  font-size: small;
+}
+.grid .row1{
+ display: flex;
+ flex-direction: row;
+ gap: 20px;
+}
+.grid .row2{
+   display: flex;
+   flex-direction: row;
+   gap: 20px;
+}
+ .grid .row3{
+   display: flex;
+   flex-direction: row;
+   gap: 20px;
+}
+.grid p{
+   margin-top: 0px;
+}
+.grid svg{
+   /* background-color: black; */
+   height:35px;
+   width: 35px;
+}
+.centerheading h1{
+   display: flex;
+   font-family: "Nunito", sans-serif;
+   font-weight: bolder;
+   align-items: center;
+   justify-content: center;
+}
+.testimonial-section img{
+   height: 80px;
+   width: 80px;
+   
+}
+.testimonial-section{
+   gap: 30px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  height: 50vh;
+}
+.testimonial-section .box7{
+   font-family: "Nunito", sans-serif;
+   display: flex;
+   flex-direction: column;
+   gap: 0px;
+   border: 1px groove rgb(117, 115, 115);
+   border-radius: 10px;
+   align-items: center;
+   height: 280px;
+   width: 450px;
+   
+}
+
+.testimonial-section .box8{
+   font-family: "Nunito", sans-serif;
+   display: flex;
+   flex-direction: column;
+   gap: 0px;
+   border: 1px groove rgb(117, 115, 115);
+   align-items: center;
+   border-radius: 10px;
+   height: 280px;
+   width: 450px;
+}
+
+.testimonial-section .box9{
+   /* color: rgb(68, 0, 255); */
+   font-family: "Nunito", sans-serif;
+   display: flex;
+   flex-direction: column;
+   gap: 0px;
+   border:1px groove rgb(117, 115, 115);
+   align-items: center;
+   border-radius: 10px;
+   height: 280px;
+   width: 450px;
+  
+}
+.testimonial-section .box7 h3{
+   color: rgb(68, 0, 255); 
+}
+.testimonial-section .box7 h5{
+   margin-top: 0px;
+}
+/* -------------------------------- */
+.testimonial-section .box8 h3{
+   color: rgb(68, 0, 255); 
+}
+.testimonial-section .box8 h5{
+   margin-top: 0px;
+}
+/* -------------------------------- */
+.testimonial-section .box9 h3
+{
+   color: rgb(68, 0, 255); 
+}
+
+.testimonial-section .box9 h5
+{
+   margin-top: 0px;
+}
+
+.testimonial-section .box7 {
+   
+}
+/* .testimonial-section .box7 :hover {
+   transform: scale(1.1); 
+ }
+
+.testimonial-section .box8 :hover {
+   transform: scale(1.1); 
+}
+.testimonial-section .box9 :hover {
+   transform: scale(1.1); 
+} */
+
+/* second last */
+.secondlast{
+   
+}
+.secondlast img{
+   margin-top: 10px;
+   height: 310px;
+   width: 500px;
+  
+ 
+}
+.container2{
+   background-color: rgb(227, 221, 221);
+   height: 350px;
+   width: 950px;
+   padding-left: 0px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   margin-left: 260px;
+   gap: 50px;
+}
+.secondlast .container2 h1{
+   font-family: "Nunito", sans-serif;
+   color: rgb(68, 0, 255); 
+}
+
+.secondlast .container2 h4{
+   color: rgb(93, 90, 90);
+   font-family: "Nunito", sans-serif;
+}
+.secondlast{
+   /* height: 100vh; */
+}
+/* email background */
+.container2 .email-section{
+   
+}
+.container2 .email-section input{
+   border: 0.5px solid grey;
+   outline: none;
+   padding: 9px;
+   border-radius:5px;
+   
+}
+.container2 .email-section button{
+   background-color: rgb(122, 33, 247);
+   color: white;
+   padding:10px ;
+   border: none;
+   border-radius: 5px;
+   padding-left: 15px;
+   padding-right: 15px;
+}
+.info-container{
+   display: flex;
+   gap: 100px;
+   margin-top: 80px;
+   margin-left: 100px;
+}
+.info-container .products{
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+}
+.info-container .company{
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+}
+.info-container .support{
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+}
+.info-container .legal{
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+}
+.info-container a{
+   color: black;
+   background-color: white;
+}
+/* .last-box h4{
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  font-family: 'Courier New', Courier, monospace; */
+  /* margin-left: 200px;
+  margin-top: 170px; */
+
+
+/* } */
+.last-box p{
+   display:flex;
+   flex-direction: row;
+   font-family: "Nunito", sans-serif;
+   margin-left: 0px;
+   font-size: 12px;
+   color: gray;
+   margin-top: 0px;
+}
+/* .last-box img{
+       height: 20px;
+       width: 20px;
+
+} */
+.last-section {
+   display: flex;
+   flex-direction: row;
+   gap: 0px;
+}
+.pic{
+   display: flex;
+   flex-direction: row;
+   margin-left: 0px;
+   gap: 5px;
+}
+.last-box {
+   margin-left:300px ;
+   margin-top: 120px;
+}
+.pic{
+   height:20px ;
+   width: 20px;
+}
+.imgh4 img{
+   height: 20px;
+   width: 20px;
+   margin-top: 20px;
+}
+.imgh4 h4{
+   font-family: 'Courier New', Courier, monospace;
+}
+.imgh4{
+   gap: 5px;
+   display: flex;
+   flex-direction: row;
+}
